@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AESPA</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+  <h1>aespa</h1>
+  <nav>
+  <ul>
+    <li><a href="members.html">成员介绍</a></li>
+    <li><a href="">专辑作品</a></li>
+    <li><a href="">打歌舞台</a></li>
+    <li><a href="social.html">社交动态</a></li>
+    <li><a href="">加入社区</a></li>
+  </ul>
+  </nav>
+  </header>
+  <main>
+    <section class="news">
+      <p data-text="即将回归，敬请期待">即将回归，敬请期待</p>
+      <a href="#" id="watch-trailer">观看预告</a>
+    </section>
+    
+    <!-- 添加视频模态窗口 -->
+    <div id="video-modal" class="modal">
+      <div class="modal-content">
+        <span class="close-modal">&times;</span>
+        <video id="trailer-video" controls>
+          <source src="video/aespa-trailer.mp4" type="video/mp4">
+          您的浏览器不支持视频播放
+        </video>
+      </div>
+    </div>
+
+  <section class="album">
+    <!-- <div class="album-banner">
+      <img src="image/aespa-album.jpg" alt="aespa-album">
+      <div class="album-text">
+        <p>最新专辑主打Whiplash</p>
+        <a href="#">查看详情</a>
+      </div>
+    </div> -->
+    <p>最新专辑主打Whiplash</p>
+    <a href="#" id="play-mv">播放MV</a>
+  </section>
+
+
+
+  <section class="solo">
+    <div>
+      <img src="image/karina_vinyl_face_centered.png" alt="KARINA">
+      <audio src="audio/karina-up.mp3" preload="auto"></audio>
+      <p>UP - KARINA Solo</p>
+    </div>
+    <div>
+      <img src="image/karina_vinyl_face_centered.png" alt="GISELLE">
+      <audio src="audio/giselle-dopamine.mp3" preload="auto"></audio>
+      <p>Dopamine - GISELLE Solo</p>
+    </div>
+    <div>
+      <img src="image/winter_vinyl_face_centered.png" alt="WINTER">
+      <audio src="audio/winter-spark.mp3" preload="auto"></audio>
+      <p>Spark - WINTER Solo</p>
+    </div>
+    <div>
+      <img src="image/ningning_vinyl_face_centered.png" alt="NINGNING">
+      <audio src="audio/ningning-bored.mp3" preload="auto"></audio>
+      <p>Bored! - NINGNING Solo</p>
+    </div>
+  </section>
+  </main>
+  <footer>
+    <div class="footer-content">
+      <img src="image/aespa-logo.png" alt="aespa Logo" class="footer-logo">
+      
+      <div class="footer-links">
+        <p>官方链接</p>
+        <div class="social-links">
+          <a href="#">微博</a>
+          <a href="#">Instagram</a>
+          <a href="#">YouTube</a>
+          <a href="#">Twitter</a>
+        </div>
+      </div>
+      
+      <div class="footer-contact">
+        <p>联系我们</p>
+        <p>contact@aespa-official.com</p>
+      </div>
+      
+      <div class="copyright">
+        <p>© 2025 aespa Official Fan Site. 本网站仅供粉丝交流使用，非官方网站。</p>
+        <p>All rights reserved. SM Entertainment.</p>
+      </div>
+    </div>
+  </footer>
+  
+  <!-- 引入JavaScript文件 -->
+  <script src="js/main.js"></script>
+  <script src="js/music-player.js"></script>
+  <script src="js/video-modal.js"></script>
+</body>
+</html>

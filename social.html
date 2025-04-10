@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AESPA - 社交动态</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/social.css">
+</head>
+<body>
+  <header>
+    <h1><a href="index.html">aespa</a></h1>
+    <nav>
+      <ul>
+        <li><a href="members.html">成员介绍</a></li>
+        <li><a href="">专辑作品</a></li>
+        <li><a href="">打歌舞台</a></li>
+        <li><a href="social.html" class="active">社交动态</a></li>
+        <li><a href="">加入社区</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <main>
+    <!-- 社交动态页面内容 -->
+    <section class="social-banner">
+      <div class="slider-container">
+        <div class="slider">
+          <div class="slide"><img src="image/social/slider-1.jpg" alt="aespa社交照片1"></div>
+          <div class="slide"><img src="image/social/slider-2.jpg" alt="aespa社交照片2"></div>
+          <div class="slide"><img src="image/social/slider-3.jpg" alt="aespa社交照片3"></div>
+          <div class="slide"><img src="image/social/slider-4.jpg" alt="aespa社交照片4"></div>
+          <div class="slide"><img src="image/social/slider-5.jpg" alt="aespa社交照片5"></div>
+          <!-- 添加第一张图片的副本，实现无缝循环 -->
+          <div class="slide"><img src="image/social/slider-1.jpg" alt="aespa社交照片1"></div>
+        </div>
+        <h2 class="slider-title" data-text="MY, 关注我们的动态">还没写完</h2>
+      </div>
+    </section>
+    
+    <section class="social-filter">
+      <!-- 保持不变 -->
+      <div class="filter-buttons">
+        <button class="filter-btn active" data-filter="all">全部</button>
+        <button class="filter-btn" data-filter="karina">KARINA</button>
+        <button class="filter-btn" data-filter="giselle">GISELLE</button>
+        <button class="filter-btn" data-filter="winter">WINTER</button>
+        <button class="filter-btn" data-filter="ningning">NINGNING</button>
+        <button class="filter-btn" data-filter="official">官方</button>
+      </div>
+    </section>
+    
+    <section class="social-grid">
+      <!-- 这里将通过JavaScript动态加载社交媒体内容 -->
+    </section>
+    
+    <div class="loading-more">
+      <button id="load-more">加载更多</button>
+    </div>
+  </main>
+  
+  <footer>
+    <div class="footer-content">
+      <img src="image/aespa-logo.png" alt="aespa Logo" class="footer-logo">
+      
+      <div class="footer-links">
+        <p>官方链接</p>
+        <div class="social-links">
+          <a href="#">微博</a>
+          <a href="#">Instagram</a>
+          <a href="#">YouTube</a>
+          <a href="#">Twitter</a>
+        </div>
+      </div>
+      
+      <div class="footer-contact">
+        <p>联系我们</p>
+        <p>contact@aespa-official.com</p>
+      </div>
+      
+      <div class="copyright">
+        <p>© 2025 aespa Official Fan Site. 本网站仅供粉丝交流使用，非官方网站。</p>
+        <p>All rights reserved. SM Entertainment.</p>
+      </div>
+    </div>
+  </footer>
+  
+  <!-- 引入JavaScript文件 -->
+  <script src="js/main.js"></script>
+  <script src="js/social.js"></script>
+</body>
+</html>
