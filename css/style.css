@@ -601,6 +601,7 @@ footer p {
   font-weight: bold;
   cursor: pointer;
   transition: all 0.3s ease;
+  z-index: 102; /* 增加z-index确保在视频上方 */
 }
 
 .close-modal:hover {
